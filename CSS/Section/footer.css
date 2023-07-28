@@ -1,0 +1,63 @@
+
+/* Additional styles for the Footer section */
+.footer-container {
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+}
+
+.social-links a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: var(--clr-secondary);
+    margin-right: 20px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.social-links a i {
+    font-size: 32px;
+    color: var(--clr-backdrop);
+    opacity: 0.9;
+}
+
+.footer-nav {
+    margin: 30px 0;
+}
+
+.footer-nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.footer-nav ul li a {
+    color: var(--clr-secondary);
+    margin: 20px;
+    text-decoration: none;
+    font-size: 18px;
+    opacity: 0.8;
+    transition: 0.5s;
+}
+
+.footer-bottom {
+    background-color: var(--clr-primary);
+    padding: 20px;
+    text-align: center;
+}
+
+.designer {
+    letter-spacing: 2px;
+    opacity: 0.6;
+    margin: 0 5px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.footer-container .logo {
+    font-size: 28px;
+}
