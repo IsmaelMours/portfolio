@@ -15,9 +15,9 @@
 
 <body id="body">
    
-  <section class="hero bg-primary">
+  <section class="hero bg--primary">
     <header class="header">
-        <a href="#" class="header__logo">Ismael<span class="header__logo-text text-backdrop"> Mours</span></a>
+        <a href="#" class="header__logo heading">Ismael<span class="header__logo-text text--backdrop"> Mours</span></a>
         
         <div class="nav-links header__nav-links">
             <a href="#home" class="home-link nav-links__link">Home</a>
@@ -30,7 +30,7 @@
         <button class="close-button header__close-button" id="closeBtn">&times;</button>
     </header>
 
-    <div class="content">
+    <div class="hero__content">
       
         <div class="content__div-text">
             <h3 class="div-text__hello">Hello I'm a</h3>
@@ -47,7 +47,7 @@
         </div>
 
         <div class="div-img content__div-img">
-            <img src="../portfolio/Images/user.png" alt="" class="div-img__image">
+            <img src="../portfolio/Images/user1.png" alt="" class="div-img__image">
         </div>
         
     </div>
@@ -55,40 +55,37 @@
 
 
   <section class="about" id="about">
-    <h2 class="about__heading">About Me</h2>
+    <h2 class="about__heading heading text--secondary padding-block-700">About <span class="text--backdrop"> Me</span> </h2>
     <div class="about__content">
       
       <div class="about__content-bio">
       
         <div class="about-container bio__about-container">
           <div class="about-details about-container__about-details">
-            <h3 class="about_details-hello text-backdrop">Hello, I'm Ismael Mours</h3>
+            <h3 class="about_details-hello text-backdrop ">Hello, I'm Ismael Mours</h3>
             <p class="about-details__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vitae hendrerit dolor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Morbi imperdiet, dolor ac tincidunt bibendum, arcu nisi finibus felis, vitae fringilla urna est sit amet tortor.</p>
           <p class="about-details__paragraph">I am a Fullstack Developer with a passion for creating interactive and user-friendly web applications. I have experience in front-end and back-end development and enjoy working on various projects to expand my skills and knowledge in the field.</p>
            <!-- Add a new div for the 3D cube -->
-              
+          </div>  
         </div>
         
             <!-- Skills -->
-            <div class="about__pro-skills padding-block-700">
+            <div class="about__pro-skills padding-block-700 ">
                 <h4 class="pro-skills__heading text-backdrop">Professional Skills</h4>
                 <ul class="pro-skills__list">
-                    <li class="pro-skills__item">HTML</li>
-                    <div class="container pro-skills__container">
-                      <div class="skills html pro-skills__skills">90%</div>
+                    <li class="pro-skills__item padding-block-100 ">HTML</li>
+                    <div class="container pro-skills__container ">
+                      <div class="skills html pro-skills__skills ">90%</div>
                     </div>
-                    <li class="pro-skills__item">CSS</li>
+                    <li class="pro-skills__item padding-block-100" >CSS</li>
                     <div class="container pro-skills__container">
                       <div class="skills css pro-skills__skills">80%</div>
                     </div>
-                    <li class="pro-skills__item">JavaScript</li>
+                    <li class="pro-skills__item padding-block-100">JavaScript</li>
                     <div class="container pro-skills__container">
                       <div class="skills js pro-skills__skills">65%</div>
                     </div>
-                    <li class="pro-skills__item">PHP</li>
-                    <div class="container pro-skills__container">
-                      <div class="skills php pro-skills__skills">60%</div>
-                    </div>
+                    
                     <!-- Add more skills as needed -->
                   </ul>
 
@@ -96,7 +93,7 @@
            
             
             <!-- Education -->
-            <div class="about__education">
+            <div class="about__education padding-block-700">
                 <h4 class="about__education-heading text-backdrop">Education</h4>
                 <p class="about__education-details">National Diploma: Information Technology</p>
                 <p class="about__education-details">Tshwane University Of Technology</p>
@@ -109,75 +106,73 @@
   </section>
 
 
-  <section class="portfolio padding-block-700 bg-primary" id="portfolio">
-      <h1 class="portfolio__heading heading text-secondary"> latest <span class="text-backdrop">Project</span></h1>
-    
-      <div class="portfolio__container text-secondary">
-            <div class="portfolio__portfolio-box">
-                <img src="../portfolio/Images/portfolio1.jpg" alt="" class="portfolio-box__image">
+ <section class = "portfolio padding-block-700 bg--primary" id="portfolio">
+          <h1 class ="heading text--secondary heading"> Latest <span class="text--backdrop">Project</span></h1>
+        
+          <div class="portfolio__portfolio-container text--secondary">
+                <div class="portfolio__portfolio-box">
+                    <img src="../portfolio/Images/portfolio1.jpg" alt="" >
+                    <div class="portfolio__portfolio-layer">
+                      <h4>web dev</h4>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, expedita!</p>
+                       <a href=""><i class='bx bx-link-alt'></i></a>
+                    </div>
+
+                </div>
+
+                <div class="portfolio__portfolio-box">
+                  <img src="../portfolio/Images/portfolio2.jpg" alt="" >
+                  <div class="portfolio__portfolio-layer">
+                    <h4>web dev</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, expedita!</p>
+                     <a href=""><i class='bx bx-link-alt'></i></a>
+                  </div>
+
+              </div>
+              <div class="portfolio__portfolio-box">
+                <img src="../portfolio/Images/portfolio3.jpg" alt="" >
                 <div class="portfolio__portfolio-layer">
-                  <h4 class="portfolio__heading">web ddesign</h4>
-                  <p class="portfolio__paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, expedita!</p>
-                   <a href="" class="portfolio-layer__link"><i class='bx bx-link-alt'></i></a>
-                </div>
-
-            </div>
-
-            <div class="portfolio__portfolio-box">
-              <img src="../portfolio/Images/portfolio2.jpg" alt="" class="portfolio-box__image">
-              <div class="portfolio__portfolio-layer">
-                <h4 class="portfolio__heading">web ddesign</h>
-                 <p class="portfolio__paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, expedita!</p>
-                   <a href="" class="portfolio-layer__link"><i class='bx bx-link-alt'></i></a>
+                  <h4>web dev</h4>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, expedita!</p>
+                   <a href=""><i class='bx bx-link-alt'></i></a>
                 </div>
 
             </div>
             <div class="portfolio__portfolio-box">
-              <img src="../portfolio/Images/portfolio3.jpg" alt="" class="portfolio-box__image">
+              <img src="../portfolio/Images/portfolio4.jpg" alt="" >
               <div class="portfolio__portfolio-layer">
-                <h4 class="portfolio__heading">web ddesign</h>
-                 <p class="portfolio__paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, expedita!</p>
-                   <a href="" class="portfolio-layer__link"><i class='bx bx-link-alt'></i></a>
-                </div>
+                <h4>web dev</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, expedita!</p>
+                 <a href=""><i class='bx bx-link-alt'></i></a>
+              </div>
 
+          </div>
+          <div class="portfolio__portfolio-box">
+            <img src="../portfolio/Images/portfolio5.jpg" alt="" >
+            <div class="portfolio__portfolio-layer">
+              <h4>web dev</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, expedita!</p>
+               <a href=""><i class='bx bx-link-alt'></i></a>
             </div>
-            <div class="portfolio__portfolio-box">
-              <img src="../portfolio/Images/portfolio4.jpg" alt="" class="portfolio-box__image">
-              <div class="portfolio__portfolio-layer">
-                <h4 class="portfolio__heading">web ddesign</h>
-                 <p class="portfolio__paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, expedita!</p>
-                   <a href="" class="portfolio-layer__link"><i class='bx bx-link-alt'></i></a>                </div>
 
-            </div>
-            <div class="portfolio__portfolio-box">
-              <img src="../portfolio/Images/portfolio5.jpg" alt="" class="portfolio-box__image">
-              <div class="portfolio__portfolio-layer">
-                <h4 class="portfolio__heading">web ddesign</h>
-                 <p class="portfolio__paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, expedita!</p>
-                   <a href="" class="portfolio-layer__link"><i class='bx bx-link-alt'></i></a>
-                </div>
-
-            </div>
-            <div class="portfolio__portfolio-box">
-              <img src="../portfolio/Images/portfolio6.jpg" alt="" class="portfolio-box__image">
-              <div class="portfolio__portfolio-layer">
-                <h4 class="portfolio__heading">web ddesign</h>
-                 <p class="portfolio-layer__paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, expedita!</p>
-                   <a href="" class="portfolio-layer__link"><i class='bx bx-link-alt'></i></a>
-                </div>
-
-            </div>
-          
-            <!-- Add more portfolio boxes here -->
+        </div>
+        <div class="portfolio__portfolio-box">
+          <img src="../portfolio/Images/portfolio6.jpg" alt="" >
+          <div class="portfolio__portfolio-layer">
+            <h4>web dev</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, expedita!</p>
+             <a href=""><i class='bx bx-link-alt'></i></a>
+          </div>
 
       </div>
-    
-</section>
+          </div>
+        
+        </section>
 
-<section class="contact bg-primary padding-block-700">
+<section class="contact bg--primary padding-block-700">
     <div class="contact-form">
-        <h1 class="text-secondary contact-form__heading">Contact <span class="text-backdrop">Me</span></h1>
-        <p class="contact-form__paragraph">I am available for any web project. Connect with me via phone: 0730662618
+        <h1 class="contact__heading heading text--secondary">Contact <span class="text--backdrop">Me</span></h1>
+        <p class="contact__paragraph">I am available for any web project. Connect with me via phone: 0730662618
         or email: monnapuleismaelmours@gmail.com </p>
         <form action="#" class="contact-form__form">
             <input type="text" placeholder="Full Name" required class="contact-form__input">
@@ -188,7 +183,7 @@
         </form>
     </div>
     <div class="contact-img">
-        <img src="../portfolio/Images/user.png" alt="" class="contact-img__image">
+        <img src="../portfolio/Images/user2.png" alt="" class="contact-img__image">
     </div>
 </section>
 

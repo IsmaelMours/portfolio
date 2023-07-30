@@ -1,10 +1,10 @@
 /* Contact Section */
 .contact {
-    padding: 40px 15%;
+    padding: 50px 15%;
     display: grid;
     grid-template-columns: repeat(2, 2fr);
     align-items: center;
-    grid-gap: 6rem;
+    grid-gap: 4rem;
     }
     
     .contact-img {

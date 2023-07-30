@@ -2,11 +2,12 @@
 .about {
     padding: 50px;
     background-color: var(--clr-primary); /* Soft black background */
-    color: white; /* White font color */
+    color: var( --clr-secondary); /* White font color */
     justify-content: center;
     align-items: center;
     }
     
+  
     .about__heading {
     font-size: 28px;
     text-align: center;
@@ -64,11 +65,10 @@
     .about__content ul li{
     margin-bottom: 10px;
     }
-    .about__content-bio{
-        
-      align-items: center;
-      gap: 150px;
-      display: flex;
+    .about__content-bio {
+        align-items: center;
+        gap: 150px;
+        display: inline-block;
     }
     /* Progress Bar Styles */
     .container {

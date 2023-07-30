@@ -51,43 +51,46 @@
 
 
 /* Utility classes */
+.heading{
+    font-size: var(--fs-700);
+}
 .text-primary {
     color: var(--clr-primary);
 }
 
-.text-secondary {
+.text--secondary {
     color: var(--clr-secondary);
 }
 
-.text-article {
+.text--article {
     color: var(--clr-article);
 }
 
-.text-backdrop {
+.text--backdrop {
     color: var(--clr-backdrop);
 }
 
-.bg-primary {
+.bg--primary {
     background-color: var(--clr-primary);
 }
 
-.bg-neutral {
+.bg--neutral {
     background-color: var(--clr-secondary);
 }
 
-.bg-article {
+.bg--article {
     background-color: var(--clr-article);
 }
 
-.bg-footer {
+.bg--footer {
     background-color: var(--clr-footer);
 }
 
-.fw-bold {
+.fw--bold {
     font-weight: var(--fw-bold);
 }
 
-.fw-regular {
+.fw--regular {
     font-weight: var(--fw-regular);
 }
 
@@ -119,6 +122,9 @@
     padding-block: var(--size-700);
 }
 
+.padding-block-100 {
+    padding-block: var(--size-100);
+}
 
 
 
@@ -192,10 +198,13 @@
         width: auto;
     }
 
-    .portfolio-container .portfolio-box {
+    .portfolio__portfolio-container .portfolio__portfolio-box {
         margin: unset;
     }
-
+.portfolio__portfolio-container{
+    gap: 2.5rem;
+}
+    gap: 2.5rem;
     .portfolio {
         padding-left: 48px;
         padding-right: 48px;
@@ -276,7 +285,45 @@
     .toggle-button:checked ~ .close-button {
       display: block;
     }
+    .hero .content__div-img {
+        width: 50%;
+        position: absolute;
+        right: 5%;
+        z-index: 100;
+        margin-top: 150px;
+        /* align-items: center; */
+        margin-right: 75px;
+    }
+      .div-text__btn {
+        color: #fff;
+        padding: 10px 20px;
+        background: #dd93f7;
+        font-size: 15px;
+        border-radius: 30px;
+        font-weight: bold;
+        border: 2px solid #dd93f7;
+        margin-top: 40px;
+    }
+      .hero .content__div-text p {
+        color: var(--clr-secondary);
+        margin: 15px 0 50px;
+        /* line-height: 1.5; */
+        width: 300px;
+    }
+    .hero .content__div-text h1 {
+        color: #dd93f7;
+        font-size: 35px;
+        font-weight: bold;
+        text-align: center;
+    }
+      .hero .content__div-text h3 {
+        color: var(--clr-secondary);
+        font-size: 20px;
+        margin-top: 300px;
+        text-align: center;
+    }
   }
+
   @media (min-width: 601px) {
     .nav-links {
       display: flex;
