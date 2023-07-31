@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const navLinks = document.querySelector(".nav-links");
   
     // Detect initial window size and set the initial state of .nav-links
-    if (window.innerWidth <= 600) {
+    if (window.innerWidth <= 550) {
       navLinks.style.display = "none";
       toggleButton.style.display = "block";
       closeButton.style.display = "none";
@@ -44,7 +44,7 @@ document.addEventListener("DOMContentLoaded", function () {
   
     // Hide the .nav-links when the window is resized to mobile size
     window.addEventListener("resize", function () {
-      if (window.innerWidth <= 600) {
+      if (window.innerWidth <= 550) {
         navLinks.style.display = "none";
         toggleButton.style.display = "block";
         closeButton.style.display = "none";
