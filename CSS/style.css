@@ -385,6 +385,12 @@
         display: flex;
         gap: 15px;
     }
+    .portfolio__portfolio-container{
+       
+        grid-template-columns: 1fr;
+      
+        
+          }
   }
 
  

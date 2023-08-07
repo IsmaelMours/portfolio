@@ -55,8 +55,24 @@ document.addEventListener("DOMContentLoaded", function () {
       }
     });
 
+    function smoothScroll(target) {
+      const element = document.querySelector(target);
+      window.scrollTo({
+          behavior: 'smooth',
+          top: element.offsetTop,
+      });
+  }
 
+  // Attach click event to navigation links
+  navLinks = document.querySelectorAll('.nav-links .nav-links__link');
+  navLinks.forEach(link => {
+      link.addEventListener('click', function (event) {
+          event.preventDefault();
+          const target = link.getAttribute('href');
+          smoothScroll(target);
+      });
+  });
 
   });
- 
+
   
