@@ -64,13 +64,19 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   // Attach click event to navigation links
-  navLinks = document.querySelectorAll('.nav-links .nav-links__link');
-  navLinks.forEach(link => {
-      link.addEventListener('click', function (event) {
-          event.preventDefault();
-          const target = link.getAttribute('href');
-          smoothScroll(target);
-      });
+
+ 
+ 
+
+  const navLinksArray = Array.from(document.querySelectorAll('.nav-links__link'));
+
+  navLinksArray.forEach(link => {
+    link.addEventListener('click', () => {
+      navLinks.style.display = 'none';
+      toggleButton.style.display = 'block';
+      closeButton.style.display = "none";
+
+    });
   });
 
   });
